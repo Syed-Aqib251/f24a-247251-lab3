@@ -21,5 +21,16 @@ function biggest(arr){
     return b;
 }
 
+function above(arr){
+    let n=0;
+    for(let i=1;i<arr.length;i=i+1){
+        if (arr[i]>arr[0]){
+            n=n+1;
+        }
+    }
+    return n;
+}
+
 console.log(total(nums));
 console.log(biggest(nums));
+console.log(above(nums));
