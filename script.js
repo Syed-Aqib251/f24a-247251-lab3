@@ -34,3 +34,9 @@ function above(arr){
 console.log(total(nums));
 console.log(biggest(nums));
 console.log(above(nums));
+
+document.querySelector("show").addEventListener("click",function(){
+    document.querySelector("#total").textContent= total(nums);
+    document.querySelector("#big").textContent= total(nums);
+    document.querySelector("#above").textContent=above(nums);
+});
